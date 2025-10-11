@@ -1,5 +1,6 @@
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.29;
+
 /*
 VARIABLES DE ESTADO
 Son variables almacenadas en la blockchain
@@ -16,3 +17,10 @@ contract VarEstado{
     }
     //fin del contrato o la clase
 }
+//eventos
+//payable
+//transfer
+//call
+//por que diferencia
+//herencia
+//interfaces
