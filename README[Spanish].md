@@ -2,7 +2,7 @@
 
 Un curso completo de Solidity que cubre conceptos fundamentales e intermedios del desarrollo de contratos inteligentes en blockchain Ethereum.
 
-## 📋 Tabla de Contenidos
+## Tabla de Contenidos
 
 1. [Introducción](#introducción)
 2. [Estructura del Curso](#estructura-del-curso)

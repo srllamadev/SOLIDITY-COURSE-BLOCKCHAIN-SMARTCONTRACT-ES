@@ -2,7 +2,7 @@
 
 A comprehensive Solidity course covering fundamental to intermediate concepts of blockchain smart contract development on Ethereum.
 
-## 📋 Table of Contents
+## Table of Contents
 
 1. [Introduction](#introduction)
 2. [Course Structure](#course-structure)

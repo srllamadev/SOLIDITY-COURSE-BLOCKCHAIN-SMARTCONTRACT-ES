@@ -23,9 +23,9 @@ contract BancoSimple {
 
     //Evento para registrar lo retiros
     event Reg(address indexed  user, uint256 amount);
-
+    
     //Funcion para depositar fondos
-    function depositar() external payable {
+    function depositar() externalx   payable {
         require(msg.value > 0, "Debes enviar SpoliaETH");
         balances[msg.sender] = balances[msg.sender] + msg.value;
         //emit ... disparar un evento
