@@ -1,0 +1,209 @@
+# Plan de Curso: Desarrollo de Contratos Inteligentes con Solidity
+
+## Descripción del Curso
+Este curso completo enseña desarrollo de contratos inteligentes en Solidity, desde conceptos básicos hasta aplicaciones descentralizadas (dApps) completas. Incluye teoría, práctica con ejemplos, y integración con interfaces web.
+
+## Requisitos Previos
+- Conocimientos básicos de programación (variables, funciones, estructuras de control)
+- Familiaridad con conceptos de blockchain (opcional pero recomendado)
+- Entorno de desarrollo: Visual Studio Code, Node.js, Git
+
+## Módulo 1: Introducción a Solidity y Blockchain
+### Lección 1.1: ¿Qué es Solidity?
+- Historia y propósito de Solidity
+- Relación con Ethereum y contratos inteligentes
+- Instalación del entorno de desarrollo (Remix, Hardhat, Foundry)
+
+### Lección 1.2: Primer Contrato Inteligente
+- Estructura básica de un contrato
+- Compilación y despliegue
+- Interacción básica (Archivos: 1_Introducción/0_HolaMundo.sol, 00_HolaMundo.sol)
+
+### Lección 1.3: Tipos de Datos
+- Tipos primitivos: bool, uint, int, address, string
+- Arrays y structs
+- Conversiones de tipos (Archivo: 1_Introducción/1_TiposDeDatos.sol)
+
+## Módulo 2: Variables y Almacenamiento
+### Lección 2.1: Tipos de Variables
+- Variables de estado (almacenadas en blockchain)
+- Variables locales (temporales)
+- Variables globales (información del entorno) (Archivos: 2_TipoVariables/)
+
+### Lección 2.2: Visibilidad de Variables y Funciones
+- public, private, internal, external
+- Cuándo usar cada tipo
+- Herencia y visibilidad (Archivos: 3_TipoVisibilidad/)
+
+### Lección 2.3: Getters y Setters
+- Getters automáticos vs personalizados
+- Encapsulación de datos
+- Validación en setters (Archivos: 6_Getters_And_Setters/)
+
+## Módulo 3: Funciones y Modificadores
+### Lección 3.1: Funciones Básicas
+- Declaración y parámetros
+- Retorno de valores
+- Funciones constructor
+
+### Lección 3.2: Modificadores de Función
+- view: lectura sin modificación
+- pure: cálculos sin estado
+- payable: recepción de ether (Archivos: 4_Modificadores/)
+
+### Lección 3.3: Modificadores Personalizados
+- Creación de modificadores
+- Uso en control de acceso
+- Ejemplos prácticos
+
+## Módulo 4: Estructuras de Control y Lógica
+### Lección 4.1: Condicionales y Bucles
+- if/else, require, assert
+- for, while loops
+- Manejo de errores
+
+### Lección 4.2: Eventos y Logging
+- Declaración de eventos
+- Emisión de eventos
+- Uso en debugging y UI
+
+### Lección 4.3: Mappings y Arrays
+- Almacenamiento eficiente de datos
+- Iteración y búsqueda
+- Casos de uso comunes
+
+## Módulo 5: Herencia y Composición
+### Lección 5.1: Herencia Simple
+- extends y super
+- Override de funciones
+- Constructores en herencia (Archivos: 5_Ejemplos/HerenciaSolidity.sol)
+
+### Lección 5.2: Interfaces y Abstract Contracts
+- Definición de interfaces
+- Contratos abstractos
+- Polimorfismo
+
+### Lección 5.3: Librerías y Using
+- Creación de librerías reutilizables
+- Directivas using
+- Math libraries, strings, etc.
+
+## Módulo 6: Seguridad y Mejores Prácticas
+### Lección 6.1: Vulnerabilidades Comunes
+- Reentrancy attacks
+- Integer overflow/underflow
+- Access control issues
+
+### Lección 6.2: Patrones de Seguridad
+- Checks-effects-interactions
+- Pull over push payments
+- Circuit breakers
+
+### Lección 6.3: Testing y Debugging
+- Unit tests con Hardhat/Chai
+- Debugging con eventos
+- Coverage testing
+
+## Módulo 7: Tokens y Standards
+### Lección 7.1: ERC-20 (Tokens Fungibles)
+- Interfaz estándar
+- Implementación completa
+- Transferencias y allowances
+
+### Lección 7.2: ERC-721 (NFTs)
+- Tokens no fungibles
+- Metadata y URI
+- Mercado de NFTs
+
+### Lección 7.3: ERC-1155 (Multi-Token)
+- Tokens híbridos
+- Batch transfers
+- Eficiencia de gas
+
+## Módulo 8: DeFi y Aplicaciones Avanzadas
+### Lección 8.1: Exchanges Descentralizados
+- AMM (Automated Market Makers)
+- Liquidity pools
+- Swaps
+
+### Lección 8.2: Lending Protocols
+- Supply/borrow mechanics
+- Interest rates
+- Liquidations
+
+### Lección 8.3: DAOs y Gobernanza
+- Voting mechanisms
+- Proposal systems
+- Timelocks
+
+## Módulo 9: Integración con Frontend (dApps)
+### Lección 9.1: Web3.js y Ethers.js
+- Conexión a blockchain
+- Interacción con contratos
+- Manejo de transacciones (Archivos: parte_2/segundaParte/)
+
+### Lección 9.2: Desarrollo de Interfaces
+- HTML/CSS básico para dApps (Archivos: parte_2/primerosPasos/)
+- Frameworks: React, Vue, Angular
+- Wallet connection (MetaMask)
+
+### Lección 9.3: Despliegue y Hosting
+- IPFS para assets
+- Hosting de dApps
+- CDN y optimización
+
+## Módulo 10: Despliegue y Producción
+### Lección 10.1: Redes y Entornos
+- Mainnet vs testnets
+- Gas optimization
+- Deployment scripts
+
+### Lección 10.2: Monitoreo y Mantenimiento
+- The Graph para indexing
+- Alertas y monitoring
+- Upgrades de contratos
+
+### Lección 10.3: Auditorías y Certificación
+- Smart contract audits
+- Bug bounties
+- Certificaciones profesionales
+
+## Proyecto Final
+### Desarrollo de una dApp Completa
+- Elección de proyecto (DeFi, NFT marketplace, DAO, etc.)
+- Diseño de arquitectura
+- Implementación end-to-end
+- Testing y deployment
+- Documentación completa
+
+## Recursos Adicionales
+### Herramientas
+- Remix IDE
+- Hardhat/Truffle
+- OpenZeppelin contracts
+- Infura/Alchemy
+
+### Comunidad
+- Ethereum Stack Exchange
+- Discord communities
+- GitHub repositories
+- Documentation oficial
+
+### Lecturas Recomendadas
+- Solidity Documentation
+- Ethereum Yellow Paper
+- Mastering Ethereum (book)
+- DeFi protocols documentation
+
+## Evaluación
+- Quizzes teóricos por módulo
+- Ejercicios prácticos de coding
+- Proyecto final
+- Participación en comunidad
+
+## Duración Estimada
+- 12-16 semanas (part-time)
+- 40-60 horas de estudio y práctica
+- Proyecto final: 2-4 semanas adicionales
+
+Este plan proporciona una base sólida para convertirse en desarrollador de contratos inteligentes, con énfasis en seguridad, mejores prácticas y aplicaciones reales.
