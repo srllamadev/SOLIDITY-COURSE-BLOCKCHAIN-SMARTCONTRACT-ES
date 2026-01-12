@@ -1,23 +1,6 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-/**
- * @title Ejemplo de Encapsulación en Solidity
- * @dev Este contrato demuestra el concepto de encapsulación en Solidity.
- * La encapsulación se refiere a ocultar los detalles internos de un objeto
- * y exponer solo lo necesario a través de interfaces públicas.
- *
- * En Solidity, usamos modificadores de visibilidad:
- * - private: Solo accesible dentro del contrato
- * - internal: Accesible dentro del contrato y contratos derivados
- * - public: Accesible desde cualquier lugar
- * - external: Solo accesible desde fuera del contrato
- *
- * Para encapsulación, típicamente:
- * - Variables de estado: private o internal
- * - Funciones getter: public o external
- * - Funciones setter: public, con validaciones
- */
 contract EncapsulacionEjemplo {
 
     // Variables privadas para encapsular datos sensibles
@@ -176,3 +159,21 @@ contract EncapsulacionEjemplo {
         return (_balance, _nombre, _owner, _activo);
     }
 }
+
+/**
+ * @title Ejemplo de Encapsulación en Solidity
+ * @dev Este contrato demuestra el concepto de encapsulación en Solidity.
+ * La encapsulación se refiere a ocultar los detalles internos de un objeto
+ * y exponer solo lo necesario a través de interfaces públicas.
+ *
+ * En Solidity, usamos modificadores de visibilidad:
+ * - private: Solo accesible dentro del contrato
+ * - internal: Accesible dentro del contrato y contratos derivados
+ * - public: Accesible desde cualquier lugar
+ * - external: Solo accesible desde fuera del contrato
+ *
+ * Para encapsulación, típicamente:
+ * - Variables de estado: private o internal
+ * - Funciones getter: public o external
+ * - Funciones setter: public, con validaciones
+ */
