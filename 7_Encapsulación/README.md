@@ -1,7 +1,5 @@
 # Ejemplo de Encapsulación en Solidity
 
-Este archivo contiene un ejemplo práctico de cómo implementar encapsulación en contratos inteligentes de Solidity.
-
 ## ¿Qué es la Encapsulación?
 
 La encapsulación es un principio fundamental de la programación orientada a objetos que consiste en:
@@ -41,4 +39,3 @@ La encapsulación es un principio fundamental de la programación orientada a ob
 - **Eventos**: Para tracking de cambios
 - **Mappings**: Para datos estructurados
 
-Este ejemplo sirve como base para entender cómo aplicar encapsulación en contratos más complejos y seguros.
